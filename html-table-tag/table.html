@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html-table-tag</title>
+    <style>
+        table {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        
+        caption {
+            border: 3px solid black;
+            border-bottom: 1px solid black;
+            padding: 10px 0;
+            font-size: 1.3em;
+        }
+       
+        th {
+            border: 3px solid black;
+            padding: 10px 30px;
+        }
+
+        td {
+            border: 3px solid black;
+            padding: 10px 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>HTML TABLE TAG</h1>
+    <table>
+        <caption><strong>Table Data Sheet - 2025</strong></caption>
+        <thead>
+            <tr>
+                <th>No</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Age</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>01</td>
+                <td>Noyon</td>
+                <td>Dev</td>
+                <td>25</td>
+            </tr>
+            <tr>
+                <td>02</td>
+                <td>Didarul</td>
+                <td>Alom</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <td>03</td>
+                <td>Hablu</td>
+                <td>Mama</td>
+                <td>35</td>
+            </tr>
+            <tr>
+                <td>04</td>
+                <td>Josim</td>
+                <td>Molla</td>
+                <td>40</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4" style="text-align: center;">
+                    <small><strong>This Table Show Only 4 People Data</strong></small>
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
